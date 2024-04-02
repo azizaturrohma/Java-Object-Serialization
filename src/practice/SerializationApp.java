@@ -16,10 +16,9 @@ public class SerializationApp {
         // For loop untuk melooping sebanyak jumlah partisipan
         for (int i = 0; i < jumlah; i++) {
             System.out.println("----------------------------------------------");
-            System.out.println("Masukkan data partisipan ke-" + (i + 1)); // i + 1 karena nilai i sebelumnya diinisiasi
-                                                                          // = 1, sehingga agar bilangan dimulai dari 1
-                                                                          // maka i +1
-
+            System.out.println("Masukkan data partisipan ke-" + (i + 1)); // i + 1 karena nilai i diinisiasi = 0,
+                                                                          // sehingga agar bilangan dimulai dari 1 maka
+                                                                          // i ditambah 1
             System.out.print("Nama depan: ");
             String firstName = input.next();
 

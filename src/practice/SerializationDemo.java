@@ -16,7 +16,6 @@ public class SerializationDemo {
         }
     }
 
-    @SuppressWarnings("unchecked")
     public List<Participant> deserialize(String fileName) {
         List<Participant> pList = null;
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(fileName))) {
